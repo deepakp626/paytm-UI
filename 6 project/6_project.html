@@ -1,0 +1,349 @@
+<head>
+    <script src="https://kit.fontawesome.com/d818a4b9ee.js" crossorigin="anonymous"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+            list-style: none;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        nav {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(39, 0, 130);
+            box-shadow: 5px 5px 5px rgba(black, black, black, 0.06);
+            position: fixed;
+        }
+        
+        .icon a i {
+            color: white;
+            gap: 50px;
+            font-size: 35px;
+            margin-left: 10px;
+            padding-top: 10px;
+        }
+        
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 5px 5px 5px rgba(black, black, black, 0.06);
+            padding: 20px 100px;
+            color: white;
+            position: sticky;
+        }
+        
+        .navigation h3 {
+            font-size: 40px;
+        }
+        
+        .navigation ul {
+            font-size: 25px;
+            list-style: none;
+            gap: 20px;
+            display: flex;
+        }
+        /* hero section */
+        
+        .hero {
+            background-image: url("images/hero_image.png");
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding-top: 50px;
+        }
+        
+        .hero h1 {
+            font-size: 130px;
+            margin: 30px auto;
+            padding-top: 200px;
+        }
+        
+        .hero h4 {
+            margin: 30px auto;
+            font-size: 40px;
+        }
+        
+        .hero p {
+            margin: 30px auto;
+            font-size: 20px;
+            width: 80%;
+            text-align: center;
+        }
+        
+        .music {
+            background-color: rgb(40, 17, 84);
+            padding: 30px;
+            color: white;
+            max-height: 650px;
+        }
+        
+        .music h3 {
+            font-size: 30px;
+            font-weight: 400px;
+            text-align: center;
+            margin: 30px 0px;
+        }
+        
+        .music div {
+            background-color: red;
+            padding: 10px;
+            width: 200px;
+            display: flex;
+            font-size: 20px;
+            font-weight: 500px;
+            border-radius: none;
+            margin: 0px auto;
+        }
+        
+        .music p {
+            font-size: 20px;
+            font-weight: large;
+            text-align: justify;
+            margin: 30px 0px;
+        }
+        
+        .p2 {
+            /*
+        text-align: center; */
+            /* color: red; */
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+        }
+        
+        .music img {
+            display: flex;
+            margin: 0px auto;
+        }
+        
+        .laptop {
+            background-color: white;
+            height: 200vh;
+            padding-top: 450px;
+        }
+        
+        .laptop h1 {
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        
+        .laptop p {
+            font-size: 20px;
+            text-align: center;
+            padding-bottom: 40px;
+            margin: 0px 60px;
+        }
+        
+        .laptop .btn {
+            background-color: blue;
+            padding: 10px;
+            width: 120px;
+            margin: 0px auto;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .laptop div img {
+            margin: 0px auto;
+            font-size: 500px;
+            display: flex;
+            width: 1300px;
+            height: 100vh;
+        }
+        
+        .video_section {
+            background-image: url("./images/video.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 110vh;
+            color: white;
+        }
+        
+        .video_section h1 {
+            text-align: center;
+            padding-bottom: 60px;
+            padding-top: 300px;
+        }
+        
+        .video_section p {
+            text-align: justify;
+            font-size: 20px;
+            margin: 0px 100px;
+        }
+        /* Gift section */
+        
+        .gift_section {
+            display: flex;
+            justify-content: center;
+            /* padding:
+        30px; */
+            height: 400px;
+            margin: 100px 0px;
+            gap: 50px;
+        }
+        
+        .gift_contant {
+            /* margin: 10px 20px; */
+            max-width: 800px;
+            padding: 30px;
+            height: 400px;
+            font-size: 20px;
+        }
+        
+        .gift_section p {
+            padding: 20px 0px;
+        }
+        
+        .gift_section .redeem {
+            margin: 20px 0px;
+            width: 100px;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+        }
+        /* footer link section */
+        
+        .footer {
+            background-color: rgb(27, 0, 88);
+            color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .footer_link {
+            width: 270px;
+            padding: 5px;
+            font-size: 10px;
+        }
+        
+        .footer_link h1 {
+            font-size: 1.4rem;
+            padding: 15px;
+        }
+        
+        .footer_link ul {
+            font-size: 1.4rem;
+            padding: 10px;
+            line-height: 30px;
+        }
+        
+        .copyright {
+            background-color: rgb(39, 0, 130);
+        }
+        
+        .copyright p {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            padding: 25px 0px;
+        }
+    </style>
+    <title>Music Website</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navigation">
+            <h3>myTunes</h3>
+            <ul class="icon">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </ul>
+            <ul>
+                <li>Overview</li>
+                <li>Music</li>
+                <li>Video</li>
+                <li>Gift Cards</li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">
+        <h1>myTunes</h1>
+        <h4>Your music, movie, and TV shows take center stage </h4>
+        <p>myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want. Enjoy all the entertainment myTunes has to offer on your Mac and PC.</p>
+    </section>
+    <section class="music">
+        <h3>Music</h3>
+        <p>Stream over 45 million songs, ad-free. Or download albums and tracks to listen to offline. All the music in your personal myTunes library — no matter where it came from — lives right alongside the Orange Music catalog. Start your free three-month
+            trial with no commitment, and cancel anytime.</p>
+        <div class="btn">Start your triler now</div>
+        <p class="p2">Orange Music is available in myTunes, and for iOS and Android devices.</p><img src="./images/ipad-iphone.png" alt="ipad img"></section>
+    <section class="laptop">
+        <h1>The movie and TV collection you always wished for. Granted.</h1>
+        <p>With over 100, 000 movies and TV shows to choose from, there’s always something great to watch on myTunes and if you watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite content in 4K HDR. So get ready to enjoy
+            episodes of your favorite TV shows or hit movies you’ve been waiting to see — anytime, anywhere. Just tap to play, or even download if you’re going somewhere you won’t have Wi-Fi.</p>
+        <div class="btn">Read more</div>
+        <div><img src="./images/mac.png" alt=""></div>
+    </section>
+    <section class="video_section">
+        <h1>A world of entertainment. Available wherever you are.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veniam nobis, nisi ut expedita, doloribus reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit eos tempora? Quae quaerat cumque in
+            veritatis impedit dolorum sapiente recusandae minima quo aperiam quam, excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!</p>
+    </section>
+    <section class="gift_section"><img src="./images/gift_card.png" alt="">
+        <div class="gift_contant">
+            <h1>Gift Card</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cum explicabo, excepturi eaque commodi minima quas repellendus assumenda facere hic, earum quasi iste asperiores molestiae obcaecati laborum, voluptatum alias velit cupiditate!
+                Quae soluta sapiente quasi, iusto quam magnam doloribus natus quod eius, rerum asperiores aspernatur. Illum neque sequi odit fuga</p>
+            <p>Already have an Orange MyTunes Music Gift Card?</p>
+            <hr>
+            <div class="redeem">Redeem</div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer_link">
+            <h1>Shop & Learn</h1>
+            <hr>
+            <ul>
+                <li>music</li>
+                <li>movies</li>
+                <li>shows</li>
+                <li>Apps</li>
+                <li>Gift Cards</li>
+            </ul>
+        </div>
+        <div class="footer_link">
+            <h1>Orange store</h1>
+            <hr>
+            <ul>
+                <li>find a store</li>
+                <li>today at orange</li>
+                <li>financing</li>
+                <li>orange camp</li>
+                <li>order status</li>
+            </ul>
+        </div>
+        <div class="footer_link">
+            <h1>Education & business</h1>
+            <hr>
+            <ul>
+                <li>orange & Education</li>
+                <li>shop for collage</li>
+                <li>orange & business</li>
+                <li>Shop for Business</li>
+                <li>jobs</li>
+            </ul>
+        </div>
+        <div class="footer_link">
+            <h1>About Orange </h1>
+            <hr>
+            <ul>
+                <li>Newsroom</li>
+                <li>Orange Leadership</li>
+                <li>Investors</li>
+                <li>Envents</li>
+                <li>Contact Orange</li>
+        </div>
+    </section>
+    <section class="copyright">
+        <p>Copyright © 2022 Do Some Coding</p>
+    </section>
+</body>

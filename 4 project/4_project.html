@@ -1,0 +1,211 @@
+<head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            font-family: " roboto", sans-serif;
+        }
+        
+        .hero_section {
+            background-image: url("images/developer.png");
+            background-position: center;
+            min-height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .text_container {
+            color: white;
+            max-width: 900px;
+            margin: 0px auto;
+            padding-top: 45px;
+            padding-left: 40px;
+            font-size: 30px;
+        }
+        
+        .lg_text {
+            font-size: 72px;
+        }
+        
+        .text_container h1 {
+            text-transform: uppercase;
+            word-spacing: 10px;
+        }
+        
+        .black_box {
+            background-color: black;
+            padding: 20px;
+        }
+        
+        .black_box h2 {
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            font-weight: 300;
+        }
+        
+        .black_box h2 span {
+            font-weight: 400;
+            font-size: 100px;
+        }
+        
+        .work {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            max-width: 1100px;
+            margin: 0px auto;
+        }
+        
+        .card {
+            max-width: 320px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+            margin: 20px 10px;
+            transition: 0.2s ease-in-out;
+        }
+        
+        .card_container {
+            padding: 20px;
+        }
+        
+        .card_container h3 {
+            padding: 10px;
+        }
+        
+        .grid-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        
+        .card:hover {
+            transform: scale(1.04);
+            transition: 0.2s ease-in-out;
+            box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+        }
+        
+        .bottom_section {
+            display: flex;
+        }
+        
+        .contact {
+            background-color: rgb(153, 162, 25);
+        }
+        
+        .about {
+            background-color: rgb(114, 35, 0);
+        }
+        
+        .contact,
+        .about {
+            min-height: 300px;
+            padding: 32px;
+            color: white;
+        }
+        
+        .contact p,
+        .about p {
+            margin-bottom: 20px;
+        }
+        
+        .contact h2,
+        .about h2 {
+            font-size: 50px;
+            font-weight: 300;
+        }
+        
+        footer {
+            text-align: center;
+            text-transform: uppercase;
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+        
+        @media (max-width:617px) {
+            .bottom_section {
+                flex-direction: column;
+            }
+            .hero_section {
+                max-width: 100vh;
+            }
+        }
+    </style>
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <section class="hero_section">
+        <div class="text_container">
+            <h2><span class="lg_text">Hi ,</span> i am depak prajapt</h2>
+            <h1>full stack developer</h1>
+        </div>
+    </section>
+    <section class="black_box">
+        <h2>WORK , I DO FOR YOU <span>YOU</span></h2>
+    </section>
+    <section class="work">
+        <div class="grid_item">
+            <div class="card">
+                <div class="image_container">
+                    <img src="./images/web.png" alt="">
+                </div>
+                <div class="card_container">
+                    <h3>web development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, provident quod. Quod perspiciatis qui veritatis!</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div class="card">
+                <div class="image_container">
+                    <img src="./images/mobile.png" alt="">
+                </div>
+                <div class="card_container">
+                    <h3>app development</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ab asperiores id saepe unde sint.</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div class="card">
+                <div class="image_container">
+                    <img src="./images/uiux.png" alt="">
+                </div>
+                <div class="card_container">
+                    <h3>UI development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste, nisi magnam exercitationem pariatur asperiores!</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="bottom_section">
+        <div class="contact">
+            <h2>Contact me</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quidem excepturi. Iusto quae tempora quaerat repudiandae fugit neque cum nostrum a corrupti temporibus earum, nam aliquam voluptas qui explicabo esse?
+            </p><br><br>
+            <p>dosomecode@gmail.code</p>
+        </div>
+        <div class="about">
+            <h2>about me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laboriosam exercitationem maxime, earum iste aperiam veritatis nam dignissimos modi debitis sit rerum, harum, illum minima quia est optio eligendi nisi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim consectetur libero consequuntur fugiat omnis tempore, optio beatae, quidem animi, expedita quae. Sequi soluta magnam dignissimos autem nemo deleniti at.</p>
+        </div>
+    </section>
+    <footer>
+        project by do dome
+    </footer>
+</body>

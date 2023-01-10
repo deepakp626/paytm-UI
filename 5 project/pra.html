@@ -1,0 +1,120 @@
+<head>
+    <script src="https://kit.fontawesome.com/d818a4b9ee.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            line-height: 1.4;
+            font-weight: 300;
+            font-family: "Roboto", sans-serif;
+        }
+        /* navigation */
+        
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav {
+            position: sticky;
+            top: 0;
+            margin-bottom: 32px;
+            background-color: white;
+            padding: 10px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            /* padding: 10px 20px; */
+            margin: 0px auto;
+        }
+        
+        .icon_container {
+            font-size: 32;
+        }
+        
+        .hero {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            align-items: center;
+        }
+        
+        .hero_contant {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .tag {
+            background-color: green;
+            padding: 5px 10px;
+            align-self: flex-start;
+        }
+        
+        .hero_contant h3 {
+            font-size: 72px;
+            line-height: 1.2;
+            font-weight: 300px;
+        }
+        
+        button {
+            border: none;
+            padding: 10px 15px;
+            transition: 0.2s ease-in-out;
+        }
+        
+        button :hover {
+            transition: 0.2s ease-in-out;
+            opacity: 0.8;
+        }
+        
+        .explore_btn {
+            background-color: orange;
+            align-self: flex-start;
+            color: white;
+        }
+        
+        @media(max-width:786px) {
+            .hero {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navigation container">
+            <div class="logo_container">
+                <img src="./images//logo.png" alt="">
+            </div>
+            <div class="icon_container">
+                <a href=""> <i class="fa-solid fa-bars"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- hero -->
+    <div class="container">
+
+        <div class="hero">
+            <div class="hero_img">
+                <img src="./images/hero_image.png" alt="">
+            </div>
+            <div class="hero_contant">
+                <div class="tag">50% off on sll product</div>
+                <h3>Enjoy your Delicious food</h3>
+                <p>Lor aque rem voluptatem tempore veniam suscipit modi voluptates ipsam.</p>
+                <button class="explore_btn">
+                    Explore Now
+                </button>
+
+            </div>
+        </div>
+    </div>
+</body>

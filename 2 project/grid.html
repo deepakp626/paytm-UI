@@ -1,0 +1,51 @@
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .container {
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: aqua;
+        width: 100%;
+        height: 500px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(3, 150px);
+    }
+    
+    .item {
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: red;
+    }
+    
+    .item1 {
+        grid-column: 1/span 3;
+    }
+    
+    .last {
+        grid-column: 1 / span 3;
+    }
+    
+    .side {
+        grid-row: 2 / span 3;
+    }
+    
+    .item5 {
+        grid-column: 2 / span 2;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item side">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item item5">5</div>
+        <div class="item last">6</div>
+    </div>
+</body>

@@ -1,0 +1,181 @@
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .section-top {
+        background-image: url('./images/developer.png');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .text {
+        color: white;
+        width: 900px;
+        margin: 0px auto;
+        padding-top: 20px;
+    }
+    
+    .work {
+        height: 130px;
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-top: 60px;
+    }
+    
+    #you {
+        font-size: 80px;
+        margin-left: 30px;
+    }
+    
+    .course {
+        background-color: red;
+        display: flex;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+    
+    .tech {
+        height: 300px;
+        width: 230px;
+        background-color: aqua;
+        border-radius: 20px;
+        margin: 30px;
+        object-fit: cover;
+    }
+    
+    .tech img {
+        height: 150px;
+        width: 230px;
+    }
+    
+    .tech div h1 {
+        font-size: 25px;
+        /* text-align: center; */
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-transform: capitalize;
+    }
+    
+    .tech div {
+        font-size: 10px;
+        padding-left: 15;
+        padding-bottom: 25px;
+    }
+    
+    .tech .p1 {
+        margin-bottom: 10px;
+    }
+    
+    .last {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }
+    
+    .contact-about {
+        padding: 40px 70px;
+        width: 50%;
+        background-color: rgb(153, 162, 25);
+    }
+    
+    .contact-about h1 {
+        font-size: 50px;
+        text-transform: capitalize;
+        margin-bottom: 15;
+        background-color: rgb(153, 162, 25);
+    }
+    
+    .contact-about p {
+        background-color: rgb(153, 162, 25);
+    }
+    
+    #about {
+        background-color: rgb(114, 35, 0);
+    }
+    
+    #about h1 {
+        background-color: rgb(114, 35, 0);
+    }
+    
+    #about p {
+        background-color: rgb(114, 35, 0);
+    }
+    
+    footer div {
+        width: 100%;
+        height: 80px;
+        text-transform: uppercase;
+        word-spacing: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <section class="section-top">
+        <div class="text">
+            <h2>hii, i am deepak prajapt</h2>
+            <h1>full stack developer</h1>
+        </div>
+    </section>
+    <section class="work">
+        <h3>work, i can do for <span id="you">you</span></h3>
+    </section>
+    <div class="course">
+        <div class="tech">
+            <img src="./images/mobile.png" alt="">
+            <div>
+
+                <h1>app development</h1>
+                <p class="p1">Lorem ipsum dolor sit icia laborra maxime, dicta iure, magni assumenda minima unde at cum. Fuga distinctio consequuntur ipsum!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quas repellendus a corrupti voluptatum dolorem sequi dolor fuga, nostrum nam veniam dignissimos ea labore, debitis deserunt consequuntur quam! Sapiente, repudiandae.</p>
+            </div>
+        </div>
+        <div class="tech">
+            <img src="./images/web.png" alt="">
+            <div>
+
+                <h1>web development</h1>
+                <p class="p1">Lorem ipsum dolor sit icia laborra maxime, dicta iure, magni assumenda minima unde at cum. Fuga distinctio consequuntur ipsum!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quas repellendus a corrupti voluptatum dolorem sequi dolor fuga, nostrum nam veniam dignissimos ea labore, debitis deserunt consequuntur quam! Sapiente, repudiandae.</p>
+            </div>
+        </div>
+        <div class="tech">
+            <img src="./images/uiux.png" alt="">
+            <div>
+
+                <h1>ui development</h1>
+                <p class="p1">Lorem ipsum dolor sit icia laborra maxime, dicta iure, magni assumenda minima unde at cum. Fuga distinctio consequuntur ipsum!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quas repellendus a corrupti voluptatum dolorem sequi dolor fuga, nostrum nam veniam dignissimos ea labore, debitis deserunt consequuntur quam! Sapiente, repudiandae.</p>
+            </div>
+        </div>
+    </div>
+    <section class="last">
+        <div class="contact-about">
+            <h1>contact me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit nulla, incidunt quos sequi qui laboriosam neque, provident pariatur, sapiente doloribus doloremque commodi perspiciatis veritatis impedit minima voluptas cupiditate sit!</p><br>
+            <p>dosomecode@gmail.com</p>
+        </div>
+        <div class="contact-about" id="about">
+            <h1>about me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit nulla, incidunt quos sequi qui laboriosam neque, provident pariatur, sapiente doloribus doloremque commodi perspiciatis veritatis impedit minima voluptas cupiditate sit!</p><br>
+            <p>Lorem ipsodit dent pariatur, sapiente doloribus doloremque commodi perspiciatis veritatis impedit minima voluptas cupiditate sit!</p><br>
+            <p>dosomecode@gmail.com</p>
+        </div>
+
+    </section>
+    <footer>
+        <div>
+
+            <h2>project by do some code</h2>
+        </div>
+    </footer>
+</body>
